@@ -1,0 +1,65 @@
+.logoSmall {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.progAccueil {
+    background-color: #f4fffd59;
+    border: 10px;
+    border-radius:10% 10% 0% 0% ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    h2 {
+        height: 10%;
+    }
+}
+
+#bandImg {
+    width: 90px;
+    height: 90px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+
+.progCard {
+    display: flex;
+    height: 12%;
+    width: 81%;
+    padding: 10px 10px 10px 10px;
+    background-color: #F4FFFD;
+    border-radius: 6%;
+    align-items: center;
+    margin-top: 5%;
+    
+    svg {
+        height: 40%;
+
+    }
+
+    
+}
+
+.progCardRight {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    flex-direction: column;
+    margin-left: 10%;
+
+
+    svg {
+        width: 10%;
+    }
+}
+
+#bandName {
+    margin: 0;
+}
+    

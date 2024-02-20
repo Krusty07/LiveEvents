@@ -1,0 +1,72 @@
+.AccueilPage {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.accueilTop {
+background-image: url(/img/backgroundHome.jpg);  
+  height: 90%;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;  
+    margin-top: 50px;
+    
+ 
+}
+.socialMedia {
+    width: 98%;
+    height: 4.5%;
+    display: flex;
+    justify-content: flex-end;
+     a {
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 8%;
+    }
+    svg {
+        fill: #328194;
+        width: 80%;
+
+    }
+
+
+}
+
+
+.ButtonTickets {
+    
+    border: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #00113a;
+    margin-top: 20%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: "Protest Riot", sans-serif;
+    display: flex;
+    width: 32%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32px;
+
+        svg {
+            width: 20%;
+            height: 80%;
+            fill: $white;
+        }
+    } 
+
+.ButtonTicketsAlign {
+    display: flex;
+    justify-content: center;
+
+}
+

@@ -1,0 +1,44 @@
+.navBar {
+    background-color: #073b4c;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: thick double #f9fafc;
+
+    svg {
+        height: 30%;
+        display: flex;
+        fill: #f9fafc;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: #f9fafc;
+        font-family: "Concert One", sans-serif;
+
+    
+    }
+
+    p {
+        height: 30%;
+        margin: 0;
+    }
+
+}
+
+#homeBtn {
+    svg{
+        fill: #f9fafc;
+        height: 50%;
+    }
+}
+
+
